@@ -4,5 +4,5 @@ class GPSData(models.Model):
     latitude = models.FloatField()
     longitude = models.FloatField()
     velocity = models.FloatField()
-    satellites = models.IntegerField()
-    bearing = models.CharField(max_length=20)
+    satellites = models.FloatField()
+    bearing = models.TextField()
